@@ -1,0 +1,11 @@
+API:
+
+- Rotate(HTMLImageElement image, String angle)
+
+Rotates the image by the given angle, which must be a valid CSS3 angle[1] in either radians or degrees.
+
+[1] http://www.w3.org/TR/css3-values/#angles
+ 
+- Rotate(HTMLImageElement image, Number angle)
+
+Rotates the image by the given angle which is assumed to be a radian value.
