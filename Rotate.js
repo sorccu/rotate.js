@@ -14,7 +14,7 @@ var Rotate = (function() {
 			deg: function(z) {
 				return Math.PI / 180 * z;
 			}
-		}[String(angle).match(/[a-z]+$/)[0] || 'rad'](parseFloat(angle));
+		}[String(angle).match(/[a-z]+$/)[0] || 'rad'](parseFloat(angle));
 	}
 	
 	var HAS_CANVAS = (function() {
@@ -46,7 +46,7 @@ var Rotate = (function() {
 			
 				var canvas = document.createElement('canvas');
 				
-				var imgWidth = img.width || loader.width;
+				var imgWidth = img.width || loader.width;
 				var imgHeight = img.height || loader.height;
 				
 				// calculate the needed space
