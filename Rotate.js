@@ -1,5 +1,5 @@
-/*
- * Copyright (c) 2009 Simo Kinnunen.
+/*!
+ * Copyright (c) 2008 Simo Kinnunen.
  * Licensed under the MIT license.
  */
 
@@ -62,11 +62,11 @@ var Rotate = (function() {
 				
 				var g = canvas.getContext('2d');
 				
-				// make everything relative to the center
+				// makes everything relative to the center, effectively creating a grid
 				g.translate(fullWidth / 2, fullHeight / 2)
 				g.rotate(angle);
 				
-				// rotates the image over its midpoint
+				// rotates the image over its center point
 				g.drawImage(loader, -imgWidth / 2, -imgHeight / 2, imgWidth, imgHeight);
 				
 			};
