@@ -28,7 +28,7 @@ var Rotate = (function() {
 	
 	return function(img, angle) {
 		
-		angle = radians(angle);
+		angle = radians(angle)*2;
 	
 		var sin = Math.sin(angle);
 		var cos = Math.cos(angle);
